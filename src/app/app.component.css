@@ -11,3 +11,9 @@ table {
     width: 25%;
   }
   
+  .loading-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Adjust as needed for the height */
+  }

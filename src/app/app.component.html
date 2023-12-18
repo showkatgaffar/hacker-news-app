@@ -1,7 +1,7 @@
 <!-- app.component.html -->
 <h3>Hacker News App</h3>
-<div *ngIf="isLoading">
-  Loading...
+<div class="loading-container" *ngIf="isLoading">
+  <mat-progress-spinner mode="indeterminate"></mat-progress-spinner>
 </div>
 
 <div [hidden]="isLoading">
